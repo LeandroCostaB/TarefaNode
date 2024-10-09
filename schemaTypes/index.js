@@ -1,3 +1,3 @@
-import { artistType } from "./artistaType"
-
-export const schemaTypes = [artistType]
+import { artistaType } from "./artistaType"
+import { enderecoType } from "./enderecoType"
+export const schemaTypes = [artistaType, enderecoType]
